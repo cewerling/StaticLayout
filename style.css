@@ -1,9 +1,9 @@
-#logo {
+#logo .logo {
     background: url(https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.png)
     background-size: 100% auto;
-/*    background-image: url(https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.svg)
+    background-image: url(https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.svg)
     display: block;
     height: 46px;
     text-indent: -9999em;
-    width: 33px; */
+    width: 33px;
 }
