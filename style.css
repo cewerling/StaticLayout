@@ -5,6 +5,7 @@ body {
 #header .logo {
     background-size: 100% auto;
     background-image: url("https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.svg");
+    background-color: red;
     height: 46px;
     width: 33px;
   }
