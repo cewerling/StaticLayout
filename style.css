@@ -1,4 +1,16 @@
 #header .logo {
+    background-size: 100% auto;
+    background-image: url("https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.svg");
+    height: 46px;
+    width: 33px;
+  }
+  ​
+  body {
+    background-color: black;
+  }
+
+
+/*#header .logo {
     background: url(https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.png) no-repeat;
     background-color: red;
     background-size: 100% auto;
@@ -7,4 +19,4 @@
     height: 46px;
     text-indent: -9999em;
     width: 33px;
-}
+} */
