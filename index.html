@@ -8,12 +8,11 @@
 </head>
 <body>
     <div id = 'header'>
-        <div class = 'logo'></div>
-        <div class = 'name'>Eleven Fifty Academy</div>
+        <a href="https://elevenfifty.org" class = 'logo'></a>
+        <a class = 'name' href="https://elevenfifty.org">Eleven Fifty Academy</a>
         <div class = 'navbar'>
-            <!-- <a href="https://elevenfifty.org/courses">COURSES</a> -->
             <div class="dropdown">
-                <button class="dropbtn">COURSES
+                <button class="dropbtn"><a href="https://elevenfifty.org/courses" class='dropbtn'>COURSES</a>
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
@@ -34,11 +33,31 @@
                 <li><a href="https://elevenfifty.org/partners">EMPLOYERS</a></li>
             </ul> -->
         </div>
-        <div class = 'whiteVertLine'>|</div>
-        <div class = 'scheduleAMeeting'>SCHEDULE A MEETING</div>
-        <div class = 'whiteVertLine'>|</div>
-        <div class = 'applyNow'>APPLY NOW</div>
+        <div class = 'whiteVertLine'></div>
+        <a id="sheduleAMeetingBlock" href="https://elevenfifty.org/admissions/schedule-a-meeting">
+            <div class = 'scheduleAMeeting'>SCHEDULE A MEETING</div>
+        </a>
+        <div class = 'whiteVertLine'></div>
+        <a id="applyNowBlock" href="https://elevenfifty.org/admissions/apply-now">
+            <div class = 'applyNow'>APPLY NOW</div>
+        </a>
     </div>
-    <h1>Testing Github Pages</h1>
+    <div id = 'video'>
+        <video loop muted autoplay class="fullScreenVideo">
+            <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.mp4" type="video/mp4">
+            <p>TRY CODING FOR FREE!</p>
+            <p>SIGN UP ></p>
+    
+        </video>
+        <div class="textOnVideo">
+            <div id="tryCodingBox">
+                <h1 id="tryCoding">TRY CODING FOR FREE!</p>
+            </div>
+            <div id="signUpBox">
+                <h1 id="signUp">SIGN UP ></p>
+            </div>
+        </div>
+    </div>
+    <h1></h1>
 </body>
 </html>
