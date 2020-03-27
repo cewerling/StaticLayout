@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #2d2d2d;
   }
@@ -11,9 +15,12 @@ body {
 .logo {
     background-size: 100% auto;
     background-image: url("https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.svg");
-    background-color: red;
+    background-color: #E33E42;
     height: 46px;
     width: 33px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #E33E42;
   }
 
 a.name {
@@ -119,7 +126,7 @@ a.name {
 }
 
 #applyNowBlock {
-  background-color: red;
+  background-color: #E33E42;
   text-decoration: none;
   height: 45pt;
   width: 125pt;
@@ -136,14 +143,19 @@ a.name {
 }
 
 #video .fullScreenVideo {
-  max-width: 1177px;
+  max-width: 1195px;
 }
 
 #tryCodingBox {
   position: absolute;
   top: 300px;
   left: 200px;
+  line-height: 0.3em;
+  border-width: 0px 20px 0px 20px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.7);
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20pt;
   background-color: black;
   opacity: 0.75;
@@ -151,20 +163,157 @@ a.name {
 
 #signUpBox {
   position: absolute;
-  top: 400px;
+  top: 405px;
   left: 200px;
+  line-height: 0.3em;
+  border-width: 0px 20px 0px 20px;
+  border-style: solid;
+  border-color: #E33E42;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
-  background-color: red;
+  background-color: #E33E42;
   opacity: 1;
 }
 
+.chevronDownArrow img {
+  position: absolute;
+  top: 650px;
+  left: 600px;
+  filter: invert(100%);
+  width: 5%;
+  height: auto;
+}
 
+.courseInfoSec {
+  background-color: lightgray;
+  margin-right: 43px;
+  border-top: 2px solid;
+  border-color: lightgray;
+  height: 600px;
+  text-decoration: none;
+}
 
+#courseInfoText {
+  align: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt;
+  color: #348DB9;
+  padding-top: 50px;
+  line-height: 1em;
+  margin-bottom: 0em;
+  margin-top: 0em
+}
 
+#cards {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 400px;
+  padding-left: 150px;
+  padding-right: 100px;
+  margin-top: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+#cards a {
+  text-decoration: none;
+  width: 33%;
+  color: black;
+  border: 5px solid;
+  border-color: lightgray;
+}
 
+#cards h2 {
+  font-size: 24pt;
+  padding: 0px 30px 10px 30px;
+  margin-bottom: 0.25em;
+  text-decoration: none;
+}
 
-h1{
-    color: white;
-}  ​
+#cards h3 {
+  font-size: 16pt;
+  text-align: center;
+  color: white;
+  background-color: #E33E42;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+#cards p {
+  font-size: 14pt;
+  padding: 0px 30px 10px 30px;
+  margin-top: 0em;
+  line-height: 1.25em;
+}
+
+#cardButton1 {
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+#cardButton2 {
+  margin-top: 40px;
+}
+
+#cardButton3 {
+  margin-top: 31px;
+}
+
+.card {
+  background-color: white;
+  /* width: 33%; */
+  height: 80%;
+  text-decoration: none;
+}  
+
+.techEvolvingSec {
+  display: grid;
+  grid-template-columns: 400px 600px;
+  grid-template-rows: 100px 200px;
+  /* grid-template-rows: auto auto; */
+  background-color: white;
+  margin-right: 43px;
+  /* border-top: 2px solid; */
+  /* border-color: white; */
+  height: 300px;
+  /* text-decoration: none; */
+}
+
+.logo2 {
+  background-size: 100% auto;
+  background-image: url("https://elevenfifty.org/wp-content/uploads/2019/03/shield.png");
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-top: 50px;
+  margin-left: 190px;
+  padding-left: 30px;
+  height: 210px;
+  width: 150px;
+}
+
+#evolveHead {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  color: #348db9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  padding-top: 10px;
+}
+
+#evolveText {
+  grid-column-start: 2;
+  /* grid-column-end: 2; */
+  grid-row-start: 2;
+  /* grid-row-end: 2; */
+  color: rgb(114, 114, 114);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  padding-top: 10px;
+  line-height: 28px;
+}
