@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 /* Header contains a flexbox */
@@ -143,7 +144,7 @@ a.name {
 }
 
 #video .fullScreenVideo {
-  max-width: 1195px;
+  max-width: 1213px;
 }
 
 #tryCodingBox {
@@ -187,7 +188,7 @@ a.name {
 
 .courseInfoSec {
   background-color: lightgray;
-  margin-right: 43px;
+  margin-right: 58px;
   border-top: 2px solid;
   border-color: lightgray;
   height: 600px;
@@ -272,13 +273,9 @@ a.name {
   display: grid;
   grid-template-columns: 400px 600px;
   grid-template-rows: 100px 200px;
-  /* grid-template-rows: auto auto; */
   background-color: white;
-  margin-right: 43px;
-  /* border-top: 2px solid; */
-  /* border-color: white; */
+  margin-right: 58px;
   height: 300px;
-  /* text-decoration: none; */
 }
 
 .logo2 {
@@ -308,12 +305,121 @@ a.name {
 
 #evolveText {
   grid-column-start: 2;
-  /* grid-column-end: 2; */
   grid-row-start: 2;
-  /* grid-row-end: 2; */
   color: rgb(114, 114, 114);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
   padding-top: 10px;
   line-height: 28px;
+}
+
+.footer {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 75px 75px 150px 150px;
+  /* margin-right: 43px; */
+  /* height: 300px; */
+  width: 1200px;
+  height: 450px;
+  /* background-color: white; */
+  color: white;
+  justify-content: center; /* Puts the grid itself in the center */
+}
+
+#footSignUp {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  justify-content: left;
+  font-size: 18pt;
+}
+
+#footSignUpText {
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
+  justify-content: left;
+  color: lightgray;
+  font-size: 14px;
+}
+
+#footEmailAddress {
+  display: grid;
+  grid-row: 3;
+  grid-column: 1;
+  justify-content: left;
+}
+
+#emailBox {
+  display: grid;
+  grid-row: 3;
+  grid-column: 1;
+  width: 300px;
+  height: 50px;
+  justify-content: left;
+  margin-top: -75px;
+}
+
+#footSubmitButton {
+  display: grid;
+  grid-row: 4;
+  grid-column: 1;
+  width: 100px;
+  height: 25px;
+  margin-top: -40px;
+  padding-top: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #E33E42;
+  line-height: 0em;
+  text-decoration: none;
+}
+
+#footSocialIcons {
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  justify-content: right;
+  grid-template-columns: 10px 10px 10px 10px 10px;
+  grid-template-rows: 15px;
+}
+
+#twitter {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  /* background-image: url("https://elevenfifty.org/wp-content/uploads/2019/03/shield.png"); */
+}
+
+#footLinks {
+  grid-row: 2;
+  grid-column: 2;
+  /* text-decoration: none;  Was used when had links */
+  color: white;
+  font-size: 14px;
+  text-align: right;
+  line-height: 50%;
+}
+
+#footContactInfo {
+  /* display: grid; */
+  grid-row: 3;
+  grid-column: 2;
+  font-size: 14px;
+  text-align: right;
+  line-height: 50%;
+  color: lightgray;
+}
+
+#footNonProfit {
+  /* display: grid; */
+  grid-row: 4;
+  grid-column: 2;
+  font-size: 14px;
+  text-align: right;
+  line-height: 50%;
+  color: lightgray;
 }
